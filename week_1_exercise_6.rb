@@ -3,8 +3,8 @@
 # writing method 'convert', to convert F to C (temp), rounded to 2 places
 
 def convert(f)
-  c = (f - 32.0) * 5 / 9
-  "temp in celsius is '%.2f' degrees" % c
+  (f - 32.0) * 5 / 9
 end
 
-puts convert(-6)
+c = convert(-6)
+puts 'temp in celsius is %.2f degrees' % c
